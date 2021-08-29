@@ -25,7 +25,7 @@ playlist=Config.playlist
 
 HELP = """
 
-🎧 <b>I Can Play Music On VoiceChats 🤪</b>
+🎧 <b>I Can Play Music On VoiceChats Powered By SL MEADIA TECH🤪</b>
 
 🎶 **Common Commands**:
 • `/c`  __Show current playing song__
@@ -52,7 +52,7 @@ HELP = """
 • `/update` __Update Current Settings n Restarts the Bot__
 
 © Powered By 
-[ __@HARP_Productions__ ]
+[ __@SL_MEDIA_TECH_GRUOP__ ]
 """
 
 
@@ -163,19 +163,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
 
-                InlineKeyboardButton('📢 Channel', url='https://t.me/harp_tech'),
+                InlineKeyboardButton('📢 Channel', url='https://t.me/sl_media_tech'),
 
-                InlineKeyboardButton('💬 Support', url='https://t.me/Harp_chat')
-
-                ],[
-
-                InlineKeyboardButton('🤖 Bawwa Official', url='https://bawwaofficial.pages.dev'),
-
-                InlineKeyboardButton('🎧 Listen To the FM', url='https://bawsfm.com')
+                InlineKeyboardButton('💬 Support', url='https://t.me/SL_MEDIA_TECH_GRUOP')
 
                 ],[
 
-                InlineKeyboardButton('Bawwa Official', url='https://t.me/bawwaofficial'),
+                InlineKeyboardButton('📢 Other Group ', url='https://t.me/NovaTechlk'),
+
+                InlineKeyboardButton('🎧 Listen To the Music', url='https://t.me/Dark_music_Gangex_2021')
+
+                ],[
+
+                InlineKeyboardButton('MR SHAGGY', url='@mrSHAGGYboy'),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
